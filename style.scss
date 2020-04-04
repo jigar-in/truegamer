@@ -1,0 +1,261 @@
+
+
+    /* font-family: 'Righteous', cursive;
+
+    font-family: 'Roboto Mono', monospace; */
+
+$font-righteus : 'Righteous', cursive;
+$font-roboto : 'Roboto Mono', monospace;
+
+$dark-overlay: rgba(0,0,0,0.8);
+
+$primary: #658525;
+$secondory: #092a35;
+$dark: #004445;
+
+$full-light: #c0ffb3;
+
+
+//remove default input outline
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+header{
+    background-image: url("images/keyboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: $font-righteus;
+
+    position: relative;
+    background-attachment: fixed;
+
+    p{
+        font-family: $font-roboto;
+        color: #fff;
+    }
+    
+    h1{
+        color: $primary;
+    }
+
+    .dark-overlay{
+        background-color: $dark-overlay;
+    }
+
+}
+
+nav{
+    background-color: $primary;
+    font-family: $font-righteus;
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+#features{
+    background-color: $dark;
+    
+    .fas{
+        color: $primary;
+    }
+
+    h5{
+        font-size: 20px;
+        font-family: $font-righteus;
+    }
+}
+
+#section-sound{
+
+    background-image: url("images/speckers.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .sound-logo{
+        fill: $primary;
+    }
+
+    h1{
+        color: #cccc;
+        font-weight: bold;
+        font-family: $font-righteus;
+    }
+
+    p{
+        letter-spacing: 2px;
+        font-family: $font-roboto;
+        color: #fff;
+    }
+
+    .dark-overlay{
+        background-color: $dark-overlay;
+    }
+}
+
+#section-stratergy{
+    background-color: $primary;
+
+    h1{
+        color: black;
+        font-weight: bold;
+        font-family: $font-righteus;
+    }
+    
+    p{
+        letter-spacing: 2px;
+        font-family: $font-roboto;
+        color: #333;
+    }
+}
+
+#section-challenge{
+
+    background-image: url("images/gun.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .dark-overlay{
+        background-color: $dark-overlay;
+    }
+
+    .challenge-logo{
+        fill: $primary;
+    }
+
+    h1{
+        color: #ccc;
+        font-weight: bold;
+        font-family: $font-righteus;
+    }
+
+    p{
+        letter-spacing: 2px;
+        font-family: $font-roboto;
+        color: #fff;
+    }
+}
+
+#section-buy-now{
+    background-image: url("images/x-box.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+
+    h1{
+        font-weight: bold;
+        color: white;
+        text-shadow: $primary 1px 1px 5px;
+    }
+
+
+}
+
+
+#section-subscribe{
+
+    font-family: $font-righteus;
+
+    h1{
+        color: black;
+        font-weight: bold;
+    }
+
+    color: $secondory;
+    background-color: $dark;
+
+    .custom-input{
+        width: 100%;
+        height: 50px;
+        color: $primary;
+        border: 0px;
+        background-color: $dark;
+        border-bottom: 3px solid $primary;
+    }
+
+    button{
+        border: 1px solid $secondory;
+        color: $secondory;
+        background-color: $primary;
+        &:hover{
+            background-color: $secondory;
+            color: $primary;
+            border: $primary 1px solid;
+        }
+
+        &:focus{
+            border: 0px;
+            border-bottom: 3px solid $primary;
+        }
+    }
+}
+
+footer{
+    background: #111;
+    font-family: $font-righteus;
+    a{
+        color: $primary;
+
+        &:hover{
+            color: white;
+        }
+    }
+
+    h4{
+        color: #ccc;
+    }
+}
+
+@media only screen and(max-width: 600px){
+    svg{
+        height: 200px;
+        width: 200px;
+    }
+
+    #section-challenge{
+        h1{
+            text-align: center !important;
+        }
+
+        p{
+            text-align: center !important;
+        }
+    }
+
+    #section-stratergy{
+        h1{
+            text-align: center !important;
+        }
+
+        p{
+            text-align: center !important;
+        }
+    }
+
+    #section-sound{
+
+
+        h1{
+            text-align: center !important;
+        }
+
+        p{
+            text-align: center !important;
+        }
+    }
+
+    #section-subscribe{
+        h1{
+            text-align: center !important;
+            text-align: center !important;
+        }
+    }
+}

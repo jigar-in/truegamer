@@ -1,0 +1,202 @@
+/* font-family: 'Righteous', cursive;
+
+font-family: 'Roboto Mono', monospace; */
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+header {
+  background-image: url("images/keyboard.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Righteous", cursive;
+  position: relative;
+  background-attachment: fixed;
+}
+header p {
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+}
+header h1 {
+  color: #658525;
+}
+header .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav {
+  background-color: #658525;
+  font-family: "Righteous", cursive;
+}
+nav .navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#features {
+  background-color: #004445;
+}
+#features .fas {
+  color: #658525;
+}
+#features h5 {
+  font-size: 20px;
+  font-family: "Righteous", cursive;
+}
+
+#section-sound {
+  background-image: url("images/speckers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#section-sound .sound-logo {
+  fill: #658525;
+}
+#section-sound h1 {
+  color: #cccc;
+  font-weight: bold;
+  font-family: "Righteous", cursive;
+}
+#section-sound p {
+  letter-spacing: 2px;
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+}
+#section-sound .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#section-stratergy {
+  background-color: #658525;
+}
+#section-stratergy h1 {
+  color: black;
+  font-weight: bold;
+  font-family: "Righteous", cursive;
+}
+#section-stratergy p {
+  letter-spacing: 2px;
+  font-family: "Roboto Mono", monospace;
+  color: #333;
+}
+
+#section-challenge {
+  background-image: url("images/gun.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#section-challenge .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#section-challenge .challenge-logo {
+  fill: #658525;
+}
+#section-challenge h1 {
+  color: #ccc;
+  font-weight: bold;
+  font-family: "Righteous", cursive;
+}
+#section-challenge p {
+  letter-spacing: 2px;
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+}
+
+#section-buy-now {
+  background-image: url("images/x-box.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+#section-buy-now h1 {
+  font-weight: bold;
+  color: white;
+  text-shadow: #658525 1px 1px 5px;
+}
+
+#section-subscribe {
+  font-family: "Righteous", cursive;
+  color: #092a35;
+  background-color: #004445;
+}
+#section-subscribe h1 {
+  color: black;
+  font-weight: bold;
+}
+#section-subscribe .custom-input {
+  width: 100%;
+  height: 50px;
+  color: #658525;
+  border: 0px;
+  background-color: #004445;
+  border-bottom: 3px solid #658525;
+}
+#section-subscribe button {
+  border: 1px solid #092a35;
+  color: #092a35;
+  background-color: #658525;
+}
+#section-subscribe button:hover {
+  background-color: #092a35;
+  color: #658525;
+  border: #658525 1px solid;
+}
+#section-subscribe button:focus {
+  border: 0px;
+  border-bottom: 3px solid #658525;
+}
+
+footer {
+  background: #111;
+  font-family: "Righteous", cursive;
+}
+footer a {
+  color: #658525;
+}
+footer a:hover {
+  color: white;
+}
+footer h4 {
+  color: #ccc;
+}
+
+@media only screen and (max-width: 600px) {
+  svg {
+    height: 200px;
+    width: 200px;
+  }
+
+  #section-challenge h1 {
+    text-align: center !important;
+  }
+  #section-challenge p {
+    text-align: center !important;
+  }
+
+  #section-stratergy h1 {
+    text-align: center !important;
+  }
+  #section-stratergy p {
+    text-align: center !important;
+  }
+
+  #section-sound h1 {
+    text-align: center !important;
+  }
+  #section-sound p {
+    text-align: center !important;
+  }
+
+  #section-subscribe h1 {
+    text-align: center !important;
+    text-align: center !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

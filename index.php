@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True gamer</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto+Mono&display=swap" rel="stylesheet"> 
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="Home">
+        <div class="dark-overlay">
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col text-center">
+                        <h1 class="display-4">True Gamer is for True Lover</h1>
+                        <p class="pt-2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repudiandae hic,
+                            ipsum minima labore facilis autem tempore molestiae totam esse.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+
+            <a href="index.html" class="navbar-brand">True Gamer</a>
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#main-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="main-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-3"><a href="#Home" class="nav-link">Home</a></li>
+                    <li class="nav-item mx-3"><a href="#Fetures" class="nav-link">Features</a></li>
+                    <li class="nav-item mx-3"><a href="#Challenges" class="nav-link">About</a></li>
+                    <li class="nav-item mx-3"><a href="index.html" class="nav-link">Join</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+
+    <section id="section-buy-now" >
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col">
+                    <div class="col text-center">
+                        <h1>Avalible now on X-box</h1>
+                        <p class="pt-3 text-muted">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Nesciunt, necessitatibus qui. Aut, veritatis iure? Deserunt doloremque 
+                            alias quisquam natus totam inventore atque, nostrum saepe tenetur vel assumenda, 
+                            facilis eum! Consequatur?
+                        </p>
+
+                        <button class="btn btn btn-outline-secondary">
+                            Buy now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <section id="features" id="Features">
+        <div class="container">
+            <div class="row py-5 d-flex flex-row">
+                <div class="col-sm-3 p-5 text-center">
+                    <i class='fas fa-chess' style='font-size:48px;'></i>
+                    <h5>Multiplayer Support</h5>
+                </div>
+                <div class="col-sm-3 p-5 text-center">
+                    <i class='fas fa-gamepad' style='font-size:48px;'></i>
+                    <h5>More Challages</h5>
+                </div>
+                <div class="col-sm-3 p-5 text-center">
+                    <i class='fas fa-ghost' style='font-size:48px;'></i>
+                    <h5>More thrill</h5>
+                </div>
+                <div class="col-sm-3 p-5 text-center">
+                    <i class='fas fa-headset' style='font-size:48px;'></i>
+                    <h5>Live streaming</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-challenge" id="Challenges">
+        <div class="dark-overlay">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-sm-6 text-center">
+                        <svg class="challenge-logo" xmlns="http://www.w3.org/2000/svg" width="400px" height="400px" viewBox="0 0 24 24">
+                            <path d="M8 10.5c0 .827-.673 1.5-1.5 1.5s-1.5-.673-1.5-1.5.673-1.5 1.5-1.5 1.5.673 1.5 1.5zm16 6.216c0 1.587-.56 2.591-1.749 3.179-.143.071-.296.105-.449.105-.242 0-.482-.087-.672-.255l-3.109-2.745c-.558-.494-1.044-1.004-2.404-1.004h-7.233c-1.36 0-1.847.51-2.404 1.004l-3.11 2.745c-.188.168-.429.255-.672.255-.152 0-.307-.034-.449-.105-1.189-.588-1.749-1.592-1.749-3.178 0-2.062.945-5.461 2.681-9.857.822-2.083 2.292-2.86 3.695-2.86.656 0 1.298.17 1.853.456 2.424 1.249 5.17 1.223 7.544 0 .553-.286 1.195-.456 1.851-.456 1.403 0 2.874.777 3.696 2.86 1.735 4.395 2.68 7.794 2.68 9.856zm-15-6.216c0-1.381-1.119-2.5-2.5-2.5s-2.5 1.119-2.5 2.5 1.119 2.5 2.5 2.5 2.5-1.119 2.5-2.5zm4-2.5c0-.552-.447-1-1-1s-1 .448-1 1 .447 1 1 1 1-.448 1-1zm3.5 2.5c0-.415-.336-.75-.75-.75s-.75.335-.75.75.336.75.75.75.75-.335.75-.75zm1.75 1.75c0-.415-.336-.75-.75-.75s-.75.335-.75.75.336.75.75.75.75-.335.75-.75zm0-3.531c0-.415-.336-.75-.75-.75s-.75.335-.75.75.336.75.75.75.75-.336.75-.75zm1.734 1.781c0-.415-.336-.75-.75-.75s-.75.335-.75.75.336.75.75.75.75-.335.75-.75z"/>
+                        </svg>
+                    </div>
+                    <div class="col-sm-6">
+                        <h1 class="display-4 pt-3">Get Ready For More Challages</h1>
+                        <p class="pt-3 text-muted">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Asperiores earum, ab corporis ullam iure, quo animi quam illum
+                            assumenda consectetur modi, autem unde fugiat repellendus reprehenderit
+                            molestias libero quae tempora.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-stratergy">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="display-4 pt-3">Create Your War Strategy</h1>
+                    <p class="pt-3">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Asperiores earum, ab corporis ullam iure, quo animi quam illum
+                        assumenda consectetur modi, autem unde fugiat repellendus reprehenderit
+                        molestias libero quae tempora.
+                    </p>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <svg class="stratery-logo" xmlns="http://www.w3.org/2000/svg" width="400px" height="400px" viewBox="0 0 24 24">
+                        <path d="M13 0h11v12h-3.55c-.933 0-1.356.575-1.356 1.109 0 .332.155.672.438.953.294.284.468.388.468.786 0 .47-.534 1.152-1.5 1.152s-1.5-.682-1.5-1.152c0-.397.174-.501.469-.785.282-.281.438-.621.438-.953 0-.534-.424-1.109-1.356-1.109h-3.551v-4.551c0-.535.137-.44.454-.109.245.263.616.659 1.394.659 1.039 0 2.152-1.004 2.152-2.5s-1.113-2.5-2.152-2.5c-.777 0-1.148.396-1.394.659-.317.333-.454.424-.454-.109v-3.55zm-8.45 12c.534 0 .441-.137.108-.454-.262-.245-.658-.616-.658-1.394 0-1.039 1.004-2.152 2.5-2.152s2.5 1.113 2.5 2.152c0 .777-.396 1.148-.658 1.394-.331.315-.427.454.108.454h3.55v-4.55c0-.932.575-1.357 1.109-1.357.332 0 .672.156.953.438.285.296.389.469.786.469.47 0 1.152-.534 1.152-1.5s-.682-1.5-1.152-1.5c-.396 0-.501.173-.785.469-.281.282-.621.438-.953.438-.535 0-1.11-.425-1.11-1.357v-3.55h-12v12h4.55zm7.45 8.45c0-.533-.137-.442-.454-.109-.245.263-.616.659-1.394.659-1.039 0-2.152-1.004-2.152-2.5s1.113-2.5 2.152-2.5c.777 0 1.148.396 1.394.659.317.331.454.425.454-.109v-3.55h-3.55c-.933 0-1.356-.575-1.356-1.109 0-.332.155-.672.438-.953.294-.284.468-.388.468-.786 0-.47-.534-1.152-1.5-1.152s-1.5.682-1.5 1.152c0 .397.174.501.469.785.282.281.438.621.438.953-.001.535-.425 1.11-1.357 1.11h-4.55v11h12v-3.55zm8.45-7.45c-.534 0-.441.137-.108.454.262.245.658.616.658 1.394 0 1.039-1.004 2.152-2.5 2.152s-2.5-1.113-2.5-2.152c0-.777.396-1.148.658-1.394.331-.315.427-.454-.108-.454h-3.55v3.55c0 .932-.575 1.357-1.109 1.357-.332 0-.672-.156-.953-.438-.285-.296-.389-.469-.786-.469-.47 0-1.152.534-1.152 1.5s.682 1.5 1.152 1.5c.396 0 .501-.173.785-.469.281-.282.621-.438.953-.438.534 0 1.109.425 1.109 1.357v3.55h11v-11h-3.549z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <section id="section-sound">
+        <div class="dark-overlay">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-sm-6 text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="400px" height="400px" viewBox="0 0 24 24">
+                            <path class="sound-logo" d="M1 13h-1v-1h1v1zm22-1h-1v1h1v-1zm-20-1h-1v3h1v-3zm18 0h-1v3h1v-3zm-14 0h-1v3h1v-3zm10-1h-1v5h1v-5zm-12 0h-1v5h1v-5zm14-1h-1v7h1v-7zm-10 0h-1v7h1v-7zm2-2h-1v10h1v-10zm4 0h-1v10h1v-10zm-2-2h-1v14h1v-14z"/>
+                        </svg>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                        <h1 class="display-4 pt-3">Sound that thrill your head</h1>
+                        <p class="pt-3 text-muted">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Asperiores earum, ab corporis ullam iure, quo animi quam illum
+                            assumenda consectetur modi, autem unde fugiat repellendus reprehenderit
+                            molestias libero quae tempora.
+                        </p>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </section>
+
+    <section id="section-subscribe">
+        <div class="container py-5">    
+            <h1 class="display-4 py-3">Subscribe to our newsletter</h1>
+            <div class="row py-4">
+                <div class="col-sm-8">
+                    <input class="custom-input" type="text" name="email" placeholder="Your Email...">
+                </div>
+                <div class="col-sm-3 mt-2">
+                    <button class="btn btn-outline-success btn-block">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer >
+        <div class="container">
+            <div class="row py-5">
+
+                <div class="col-sm-6">
+                    <h4 class="ml-5">Menu</h4>
+
+                    <div class="d-flex flex-column">
+                        <ul>
+                            <li><a href="index.html" class="p-2">Home</a></li>
+                            <li><a href="index.html" class="p-2">Features</a></li>
+                            <li><a href="index.html" class="p-2">Contact</a></li>
+                            <li><a href="index.html" class="p-2">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-6" id="Blogs">
+                    <h4 class="ml-5">Blogs</h4>
+
+                    <div class="d-flex flex-column">
+                        <ul>
+                            <li><a href="index.html" class="p-2">Getting started</a></li>
+                            <li><a href="index.html" class="p-2">How to increas power</a></li>
+                            <li><a href="index.html" class="p-2">Whats new in update</a></li>
+                            <li><a href="index.html" class="p-2">Necessary skills for every player</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center py-2">
+                <h5>Copyright &copy; True Gamer</h5>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
